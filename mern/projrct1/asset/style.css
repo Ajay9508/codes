@@ -1,0 +1,79 @@
+*{
+     margin: 0;
+     padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(226, 225, 225);
+}
+#nav{
+    height: 100px;  
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    gap:50px;
+    font-size: 30px;
+    padding: 20px;
+}
+#nav i{
+    background-color: black;
+    color: rgb(247, 246, 245);
+    font-size: 30px;
+    border-radius: 30%
+}
+#heading-section{
+    /* background-color:tomato; */
+    /* height: 400px; */
+    padding: 40px 50px;
+    font-size:60px;
+}
+#heading-section h5{
+    line-height: 40px;
+    font-weight: 100;
+}
+.section2
+{
+    /* background-color: aquamarine; */
+ font-size: 20px;
+ padding: 40px 50px;
+ display: flex;
+ justify-content: space-between;
+}
+.right{
+    /* background-color: tomato; */
+    width: 20%;
+    
+}
+.elmnt{
+    /* background-color: aqua; */
+    /* margin: 30px; */
+    border-top: black solid 1px ;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.elmnt a{
+    font-size: 70x;
+    color: black;
+    text-decoration: none;
+}
+.elmnt  i{
+    opacity: 0;
+    font-size: 20px;
+}
+.elmnt:hover i{
+    opacity: 1;
+}
+.elmnt:hover {
+    background-color: rgb(212, 212, 212);
+}
