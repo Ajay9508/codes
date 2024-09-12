@@ -77,3 +77,12 @@ html ,body{
 .elmnt:hover {
     background-color: rgb(212, 212, 212);
 }
+.last-section{
+    height:50%;
+    width: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1683120861720-e5babc80c6a6?q=80&w=1588&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   
+   background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: 20%;
+}
